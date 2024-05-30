@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7279af91f3a47c03a2988ea620ba9c95 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_7279af91f3a47c03a2988ea620ba9c95" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7279af91f3a47c03a2988ea620ba9c95 = L.map(
+                "map_7279af91f3a47c03a2988ea620ba9c95",
+                {
+                    center: [0.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0bdb724e0f2a5383d600f5a519945d23 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_7279af91f3a47c03a2988ea620ba9c95);
+        
+    
+            var circle_marker_70978c1b862f4406dfed35e009e28475 = L.circleMarker(
+                [0.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightblue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_7279af91f3a47c03a2988ea620ba9c95);
+        
+    
+        var popup_43996006d06556946a8bcdb5d891d43b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_89e03b9136d597b3f202aff823fb2f4c = $(`<div id="html_89e03b9136d597b3f202aff823fb2f4c" style="width: 100.0%; height: 100.0%;">Region: Africa<br>GDP: 2018.71881710418<br>Growth Rate: 0.0493999407911687</div>`)[0];
+                popup_43996006d06556946a8bcdb5d891d43b.setContent(html_89e03b9136d597b3f202aff823fb2f4c);
+            
+        
+
+        circle_marker_70978c1b862f4406dfed35e009e28475.bindPopup(popup_43996006d06556946a8bcdb5d891d43b)
+        ;
+
+        
+    
+    
+            var circle_marker_ece805fcd5fde8fa8d57ba89c067ed8f = L.circleMarker(
+                [0.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_7279af91f3a47c03a2988ea620ba9c95);
+        
+    
+        var popup_284cdda6fc63f255060ab0828cabd24c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b721f81247bb71c81db108d20f1d9ba1 = $(`<div id="html_b721f81247bb71c81db108d20f1d9ba1" style="width: 100.0%; height: 100.0%;">Region: Asia<br>GDP: 452.4722217281926<br>Growth Rate: 0.0344817055679867</div>`)[0];
+                popup_284cdda6fc63f255060ab0828cabd24c.setContent(html_b721f81247bb71c81db108d20f1d9ba1);
+            
+        
+
+        circle_marker_ece805fcd5fde8fa8d57ba89c067ed8f.bindPopup(popup_284cdda6fc63f255060ab0828cabd24c)
+        ;
+
+        
+    
+    
+            var circle_marker_2a186b0d46c1b683b3ec2c348d2c5bb3 = L.circleMarker(
+                [0.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_7279af91f3a47c03a2988ea620ba9c95);
+        
+    
+        var popup_f75f02ac5c4d54ac930e9d7f2396b4e8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7339e9962185d0f785a18f45fba19a6c = $(`<div id="html_7339e9962185d0f785a18f45fba19a6c" style="width: 100.0%; height: 100.0%;">Region: East Asia & Pacific<br>GDP: 13315.986440762685<br>Growth Rate: 0.0391849356847663</div>`)[0];
+                popup_f75f02ac5c4d54ac930e9d7f2396b4e8.setContent(html_7339e9962185d0f785a18f45fba19a6c);
+            
+        
+
+        circle_marker_2a186b0d46c1b683b3ec2c348d2c5bb3.bindPopup(popup_f75f02ac5c4d54ac930e9d7f2396b4e8)
+        ;
+
+        
+    
+    
+            var circle_marker_7bcc2ae6ff4fb7b2b7cdd48692875d4a = L.circleMarker(
+                [0.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_7279af91f3a47c03a2988ea620ba9c95);
+        
+    
+        var popup_0c32552b8b741e2692e77cb0530aa33b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b9d9daf9805f4b56186ca5693963bdd7 = $(`<div id="html_b9d9daf9805f4b56186ca5693963bdd7" style="width: 100.0%; height: 100.0%;">Region: Europe<br>GDP: 37195.054289726846<br>Growth Rate: 0.0463930819078475</div>`)[0];
+                popup_0c32552b8b741e2692e77cb0530aa33b.setContent(html_b9d9daf9805f4b56186ca5693963bdd7);
+            
+        
+
+        circle_marker_7bcc2ae6ff4fb7b2b7cdd48692875d4a.bindPopup(popup_0c32552b8b741e2692e77cb0530aa33b)
+        ;
+
+        
+    
+    
+            var circle_marker_52234234f9740cc7d254c28cfbd39370 = L.circleMarker(
+                [0.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "lightorange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightorange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_7279af91f3a47c03a2988ea620ba9c95);
+        
+    
+        var popup_4d552c3fdd4915764df3c190f42922e4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c63005ad8730e01aef42eebe0c0511a1 = $(`<div id="html_c63005ad8730e01aef42eebe0c0511a1" style="width: 100.0%; height: 100.0%;">Region: Europe & Central Asia<br>GDP: 6819.69120560598<br>Growth Rate: 0.0733210641154816</div>`)[0];
+                popup_4d552c3fdd4915764df3c190f42922e4.setContent(html_c63005ad8730e01aef42eebe0c0511a1);
+            
+        
+
+        circle_marker_52234234f9740cc7d254c28cfbd39370.bindPopup(popup_4d552c3fdd4915764df3c190f42922e4)
+        ;
+
+        
+    
+    
+            var circle_marker_e570e1892a1eaa3437278bb1cd232854 = L.circleMarker(
+                [0.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "lightorange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightorange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_7279af91f3a47c03a2988ea620ba9c95);
+        
+    
+        var popup_960f5605acb73f829ee08f485dc38fbe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bdf3a36352fdf7075850785fd4ac5713 = $(`<div id="html_bdf3a36352fdf7075850785fd4ac5713" style="width: 100.0%; height: 100.0%;">Region: Latin America & Caribbean<br>GDP: 9622.623317130628<br>Growth Rate: 0.0384058535743826</div>`)[0];
+                popup_960f5605acb73f829ee08f485dc38fbe.setContent(html_bdf3a36352fdf7075850785fd4ac5713);
+            
+        
+
+        circle_marker_e570e1892a1eaa3437278bb1cd232854.bindPopup(popup_960f5605acb73f829ee08f485dc38fbe)
+        ;
+
+        
+    
+    
+            var circle_marker_be64ecb305e556e6fa50afdb67baa4fc = L.circleMarker(
+                [0.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_7279af91f3a47c03a2988ea620ba9c95);
+        
+    
+        var popup_32d695be9245b34628543b73b8c6ea27 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bdc67fe7d2c6ac2c987fa4acbef66f89 = $(`<div id="html_bdc67fe7d2c6ac2c987fa4acbef66f89" style="width: 100.0%; height: 100.0%;">Region: Middle East & North Africa<br>GDP: 12814.34281341267<br>Growth Rate: 0.0456627228031161</div>`)[0];
+                popup_32d695be9245b34628543b73b8c6ea27.setContent(html_bdc67fe7d2c6ac2c987fa4acbef66f89);
+            
+        
+
+        circle_marker_be64ecb305e556e6fa50afdb67baa4fc.bindPopup(popup_32d695be9245b34628543b73b8c6ea27)
+        ;
+
+        
+    
+    
+            var circle_marker_57e11fab06c9e453fe1cfba9adb3eebb = L.circleMarker(
+                [0.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_7279af91f3a47c03a2988ea620ba9c95);
+        
+    
+        var popup_457233fce5b8537cf33aff613c354a3b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_71a16a9176757617925087ab80023ba9 = $(`<div id="html_71a16a9176757617925087ab80023ba9" style="width: 100.0%; height: 100.0%;">Region: North America<br>GDP: 55602.18975970143<br>Growth Rate: 0.0473247131358158</div>`)[0];
+                popup_457233fce5b8537cf33aff613c354a3b.setContent(html_71a16a9176757617925087ab80023ba9);
+            
+        
+
+        circle_marker_57e11fab06c9e453fe1cfba9adb3eebb.bindPopup(popup_457233fce5b8537cf33aff613c354a3b)
+        ;
+
+        
+    
+    
+            var circle_marker_548ed49e8abd4dcdae2b11454622240c = L.circleMarker(
+                [0.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightblue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_7279af91f3a47c03a2988ea620ba9c95);
+        
+    
+        var popup_1f471148beda491ce31344294e142fdf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_776b937293af447586b0222658118bcf = $(`<div id="html_776b937293af447586b0222658118bcf" style="width: 100.0%; height: 100.0%;">Region: South Asia<br>GDP: 2091.0201944217133<br>Growth Rate: 0.0779057679819866</div>`)[0];
+                popup_1f471148beda491ce31344294e142fdf.setContent(html_776b937293af447586b0222658118bcf);
+            
+        
+
+        circle_marker_548ed49e8abd4dcdae2b11454622240c.bindPopup(popup_1f471148beda491ce31344294e142fdf)
+        ;
+
+        
+    
+    
+            var circle_marker_6e08a0014cd650717baa2a802885e321 = L.circleMarker(
+                [0.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "lightorange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightorange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_7279af91f3a47c03a2988ea620ba9c95);
+        
+    
+        var popup_cdf4a8bd89312c863058d775ad7cfefd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f8f9af8f53004528a8a0242f117bfa60 = $(`<div id="html_f8f9af8f53004528a8a0242f117bfa60" style="width: 100.0%; height: 100.0%;">Region: Various<br>GDP: 8321.190319537154<br>Growth Rate: 0.0436472787302888</div>`)[0];
+                popup_cdf4a8bd89312c863058d775ad7cfefd.setContent(html_f8f9af8f53004528a8a0242f117bfa60);
+            
+        
+
+        circle_marker_6e08a0014cd650717baa2a802885e321.bindPopup(popup_cdf4a8bd89312c863058d775ad7cfefd)
+        ;
+
+        
+    
+</script>
+</html>
